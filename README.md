@@ -1,1 +1,4 @@
 # Y18C1-SnayMarketPlace
+Esta es una pagina web que funciona para la venta de articulos varios. En ella se da la facilidad de la comunicacion del vendedor y comprador.
+OBJETIVOS: Ofrecer a las personas facilidad en la compra de diferentes articulos, mostrar una galeria de las cosas a adquirir y una pequeña descripcion de ello. Dar seguridad y flexibilidad en el momento de la compra de cualquier articulo y generar confianza entre el cliente. Dar un servicio de usuario en el cual este ingrese sus datos y cree una cuenta, la cual se le llevara un registro de las compras que ha adquirido y un ofrecer una vista segun a su historial.
+SU FUNCIONAMIENTO: Una pagina web de mercadeo, que muestre  una galeria de fotos del articulo, una descripcion de ello y facilidad de compra. o dar opciones de donde mas lo puede adquirir.
