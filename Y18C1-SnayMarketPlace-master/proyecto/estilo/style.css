@@ -17,51 +17,41 @@
   border-bottom: 1px solid #4EE0AD;
   background: #fafafa;
   overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-.header .top-header .contenedor .top-menu{
-  float: left;
+.top-menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-.header .top-header .contenedor .top-menu ul{
-  list-style: none;
-}
-
-.header .top-header .contenedor .top-menu ul li{
-  float: left;
-}
-
-.header .top-header .contenedor .top-menu ul li a{
+.top-menu a{
   text-decoration: none;
   color: #363940;
   padding: 10px 15px;
   display: inline-block;
 }
 
-.header .top-header .contenedor .top-menu ul li a:hover{
-  color: #94D9C0;
+.top-redes a{
+  box-shadow: inset 0 0 blue;
+  transition: box-shadow .5s;
 }
 
-.header .top-header .contenedor .top-redes{
-  float: right;
+.top-redes a:hover{
+  box-shadow: inset 0 50px blue;
 }
 
-.header .top-header .contenedor .top-redes ul{
-  list-style: none;
-}
-
-.header .top-header .contenedor .top-redes ul li{
-  float: right;
-}
-
-.header .top-header .contenedor .top-redes ul li a{
+.top-redes a{
   text-decoration: none;
   color: #363940;
   padding: 10px 15px;
   display: inline-block;
 }
 
-.header .top-header .contenedor .top-redes ul li a:hover{
+.top-redes a:hover{
   color: #94D9C0;
 }
 
@@ -131,7 +121,8 @@ color: #A4C6BA;
 }
 
 .main .banner .contenedor .banner-principal img{
-  width: 100%;
+  width: 20vw;
+  height: 20vw;
 }
 
 p{
