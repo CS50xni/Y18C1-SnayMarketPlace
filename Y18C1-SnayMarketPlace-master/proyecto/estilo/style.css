@@ -12,20 +12,19 @@
 }
 
 .header .top-header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   padding: 6px 0;
   font-size: 12px;
   border-bottom: 1px solid #4EE0AD;
   background: #fafafa;
   overflow: hidden;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
 }
 
 .top-menu{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
 }
 
 .top-menu a{
@@ -35,24 +34,27 @@
   display: inline-block;
 }
 
-.top-redes a{
-  box-shadow: inset 0 0 blue;
-  transition: box-shadow .5s;
-}
-
-.top-redes a:hover{
-  box-shadow: inset 0 50px blue;
+.top-menu a:hover{
+  color: #229A76;
 }
 
 .top-redes a{
+  display: block;
   text-decoration: none;
   color: #363940;
   padding: 10px 15px;
-  display: inline-block;
+  box-shadow: inset 0 0 #229A76, inset 0 0 #229A76;
+  transition: box-shadow .25s;
 }
 
 .top-redes a:hover{
   color: #94D9C0;
+  box-shadow: inset 0 25px #229A76, inset 0 -25px #229A76;
+}
+
+.top-redes{
+  display: flex;
+  flex-direction: row;
 }
 
 .titulo-blog{
