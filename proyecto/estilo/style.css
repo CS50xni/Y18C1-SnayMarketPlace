@@ -1,6 +1,152 @@
-<style>
-      h1{
-          font-size:300%;
-          text-align:center;
+body{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.contenedor{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.header .top-header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 6px 0;
+  font-size: 12px;
+  border-bottom: 1px solid #4EE0AD;
+  background:   #6C3483;
+  overflow: hidden;
+}
+
+.top-menu{
+  display: flex;
+  flex-direction: row;
+}
+
+.top-menu a{
+  text-decoration: none;
+  color: black;
+  padding: 10px 15px;
+  display: inline-block;
+}
+
+.top-menu a:hover{
+  color: #229A76;
+}
+
+.top-redes a{
+  display: block;
+  text-decoration: none;
+  color: #363940;
+  padding: 10px 15px;
+  box-shadow: inset 0 0 #229A76, inset 0 0 #229A76;
+  transition: box-shadow .25s;
+}
+
+.top-redes a:hover{
+  color: #94D9C0;
+  box-shadow: inset 0 25px #229A76, inset 0 -25px #229A76;
+}
+
+.top-redes{
+  display: flex;
+  flex-direction: row;
+}
+
+.titulo-blog{
+  text-align: center;
+  font-style: normal;
+  font-family: 'comic sans';
+  color:#EFC378;
       }
-</style>
+
+.titulo-blog .contenedor h1 a{
+  text-decoration: none;
+  color: #0C4732;
+  font-size: 60px;
+  display: inline-block;
+  padding: 30px 0;
+  font-weight: 300;
+}
+
+.titulo-blog .contenedor h1 a:hover{
+color: #A4C6BA;
+}
+
+.titulo-blog .contenedor .subtitulo{
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #B1CFC4;
+}
+
+.titulo-blog{
+  display: flex;
+  flex-direction: row;
+}
+
+.menu-principal{
+  display: flex;
+  flex-direction: row;
+}
+
+.menu-principal{
+  background: #6C3483;
+  margin-bottom: 40px;
+  border-top: 1px solid #f0f0f0;
+  border-bottom: 1px solid #f0f0f0;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.menu-principal .contenedor ul{
+  list-style: none;
+  display: inline-block;
+  margin: 0 auto;
+
+}
+
+.menu-principal .contenedor ul li{
+  display: inline-block;
+}
+
+.menu-principal .contenedor ul li a{
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #363940;
+}
+
+.menu-principal .contenedor ul li a:hover{
+  color: #94D9C0;
+}
+
+.main .banner{
+  padding-bottom: 15px
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.main .banner .contenedor .banner-principal{
+  width: 100%;
+}
+
+.main .banner .contenedor .banner-principal img{
+  width: 30vw;
+  height: 30vw;
+}
+
+p{
+  color: blue;
+}
+
+.icon{
+  width:16px;
+  height: 16px;
+  fill: currentColor;
+}
+
+svg:not(:root){
+  overflow: hidden;
+}
